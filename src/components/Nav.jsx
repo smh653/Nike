@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <header className="px-8 py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
-        <a href="/">
+        <a href="/" className="flex items-center ml-14">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 ">
